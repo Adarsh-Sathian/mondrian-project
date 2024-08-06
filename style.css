@@ -1,0 +1,162 @@
+/* 
+    Write your CSS here 
+    Gap Colour: #000
+    Dark White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+    Background White: #F5F7F8
+*/
+
+body {
+    height: 100vh;
+    background-color: #F5F7F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 654px;
+    height: 735px;
+    background-color: black;
+    display: grid;
+    grid-template-rows: 28px 70px 56px 140px 112px 112px 28px 84px 33px;
+    grid-template-columns: 50px 90px 100px 130px 140px 45px 45px;
+    gap: 9px;
+}
+
+.black1 {
+    background-color: #232629;
+    grid-area: 1 / 1 / 4 / 2;
+}
+
+.grey1 {
+    background-color: grey;
+    grid-area: 1 / 2 / 2 / 4;
+}
+
+.red1 {
+    background-color: #E72F24;
+    grid-area: 2 / 2 / 4 / 3;
+}
+
+.white1 {
+    background-color: white;
+    grid-area: 2 / 3 / 4 / 4;
+}
+
+.white2 {
+    background-color: white;
+    grid-row: span 2;
+}
+
+.yellow1 {
+    background-color: #F9D01E;
+    grid-area: 3 / 4 / 4 / 5;
+}
+
+.grey2 {
+    background-color: grey;
+    grid-area: 1 / 5 / 3 / 6;
+}
+
+.blue1 {
+    background-color: #004592;
+    grid-area: 3 / 5 / 4 / 6;
+}
+
+.yellow2 {
+    background-color: #F9D01E;
+    grid-area: 1 / 6 / 4 / 8;
+}
+
+.white3 {
+    background-color: white;
+    grid-row: span 2;
+}
+
+.blue2 {
+    background-color: #004592;
+    grid-area: 4 / 2 / 5 / 4;
+}
+
+.black2 {
+    background-color: #232629;
+    grid-area: 5 / 2 / 6 / 4;
+}
+
+.yellow3 {
+    background-color: #F9D01E;
+    grid-area: 4 / 4 / 5 / 5;
+}
+
+.white4 {
+    background-color: white;
+    grid-area: 5 / 4 / 6 / 5;
+}
+
+.grey3 {
+    background-color: grey;
+    grid-area: 4 / 5 / 5 / 6;
+}
+
+.black3 {
+    background-color: #232629;
+    grid-area: 5 / 5 / 7 / 6;
+}
+
+.red2 {
+    background-color: #E72F24;
+    grid-area: 4 / 6 / 7 / 7;
+}
+
+.white5 {
+    background-color: white;
+    grid-row: span 3;
+}
+
+.grey4 {
+    background-color: grey;
+    grid-area: 6 / 1 / 8 / 3;
+}
+
+.red3 {
+    background-color: #E72F24;
+    grid-area: 6 / 3 / 9 / 4;
+}
+
+.white6 {
+    background-color: white;
+}
+
+.blue3 {
+    background-color: #004592;
+    grid-area: 7 / 4 / 9 / 5;
+}
+
+.yellow4 {
+    background-color: #F9D01E;
+    grid-area: 7 / 5 / 9 / 6;
+}
+
+.darkwhite1 {
+    background-color: #F0F1EC;
+    grid-area: 7 / 6 / 10 / 8;
+}
+
+.darkwhite2 {
+    background-color: #F0F1EC;
+    grid-area: 8 / 1 / 10 / 3;
+}
+
+.black4 {
+    background-color: #232629;
+    grid-area: 9 / 3 / 10 / 5;
+}
+
+.grey5 {
+    background-color: grey;
+}
